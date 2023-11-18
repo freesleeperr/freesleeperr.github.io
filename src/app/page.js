@@ -10,9 +10,9 @@ export default function Home() {
         <text className='font-bold text-6xl'>Blog</text>
       </div> */}
       <div className="lg:h-20 px-5  lg:px-20 flex flex-col justify-start w-full mt-5">
-        <text className="bg-violet-400">11.18 英雄传奇正在开发</text>
-        <text className="">正在学习基础游戏架构</text>
-        <text className="">单一状态机...了解中</text>
+        <text className="bg-violet-700 font-bold">11.18 英雄传奇正在开发</text>
+        <text className="text-sm">正在学习基础游戏架构</text>
+        <text className="text-sm">单一状态机...了解中</text>
       </div>
     </main>
   );
