@@ -3,13 +3,13 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="flex  flex-col items-center min-h-screen">
-      <div className='w-full bg-white h-30 px-20 h-20  flex flex-col justify-center'>
-        <text className='font-bold text-8xl text-black'>？WhyGame</text>
+      <div className='w-full bg-white  lg:px-20 lg:h-20  flex flex-col justify-center'>
+        <text className='font-bold lg:text-8xl text-black'>？WhyGame</text>
       </div>
       {/* <div className='w-full bg-purple-800 h-20 px-20 flex flex-col justify-center'>
         <text className='font-bold text-6xl'>Blog</text>
       </div> */}
-      <div className='h-20 px-20 flex flex-col justify-start w-full mt-5'>
+      <div className='lg:h-20 lg:px-20 sm:px-10 flex flex-col justify-start w-full mt-5'>
         <text className='bg-violet-400'>11.18 英雄传奇正在开发</text>
         <text className=''>正在学习基础游戏架构</text>
         <text className=''>单一状态机...了解中</text>
