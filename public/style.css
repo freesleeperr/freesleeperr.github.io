@@ -1,0 +1,6 @@
+@font-face {
+  font-family: "PixelFont"; /* 自定义字体名称 */
+  src: url("fusionpixel12px.ttf") format("ttf"),
+    /* 字体文件路径和格式 */ url("fusionpixel12px.ttf") format("truetype");
+  /* 如果有多个格式的字体文件，可以提供多个src属性 */
+}
